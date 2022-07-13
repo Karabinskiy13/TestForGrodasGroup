@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px) {
+    .arrow-right, .arrow-left{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .main-info {
+        max-width: 640px;
+    }
+
+}
+
+
+    @media screen and (max-width: 500px) {
+        .featured-image {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+.last-image{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+    }

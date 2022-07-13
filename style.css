@@ -1,0 +1,81 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    min-width: 320px;
+}
+.main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.featured{
+    padding: 100px 0 0 0;
+    position: relative;
+}
+.arrow-left, .arrow-right{
+    width: 80px;
+    height: 80px;
+    padding: 60px 20px 90px 20px;
+    fill: #00edff;
+}
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.header{
+    font-family: 'Oswald';
+    font-size: 40px;
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.featured-image{
+    display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+}
+.single-image{
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.imageFromJSON{
+    position: relative;
+    margin-bottom: 30px;
+}
+.imageFromJSON svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.featured-image-info {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 300px;
+    color: #00edff;
+    font-size: 10px;
+    font-family: 'Oswald';
+}
+.last-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
